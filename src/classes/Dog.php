@@ -33,7 +33,7 @@ final class Dog
 	private function ensureIsValidBreed(string $breed): void
 	{
 		if (!in_array($breed, static::BREEDS)) {
-			throw new InvalidArgumentException(
+			throw new \InvalidArgumentException(
 				sprintf(
 					'"%s" is not a valid dog breed',
 					$breed
