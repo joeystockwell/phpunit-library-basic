@@ -1,0 +1,12 @@
+{
+    "name": "joeystockwell/phpunit-library-basic",
+    "description": "Composer Package for basic examples to be used with https://github.com/joeystockwell/phpunit-library.",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
